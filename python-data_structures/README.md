@@ -1,1 +1,1 @@
-natalialovesusa
+LIST TUPLES DICT

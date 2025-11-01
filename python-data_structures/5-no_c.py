@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-def new_in_list(my_list, idx, element):
-    if idx < 0 or idx >= len(my_list):
-        return my_list[:]
-    new_list = my_list[:]
-    new_list[idx] = element
-    return new_list 
+def no_c(my_string):
+    new_string = ""
+    for ch in my_string:
+        if ch != 'c' and ch != 'C':
+            new_string += ch
+    return new_string
